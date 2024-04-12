@@ -181,3 +181,98 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+.carousel-item {
+    height: 100%;
+    /* Altura del 100% del contenedor */
+    width: 100%;
+    /* Ancho del 100% del contenedor */
+}
+
+
+.c-img {
+    width: 100%;
+    /* Ancho del 100% para ocupar todo el espacio disponible */
+    height: auto;
+    /* Mantenemos la proporción de aspecto */
+    display: block;
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir todo el espacio disponible sin distorsionar */
+}
+
+
+@media (max-width: 768px) {
+    .carrusel-tamaño {
+        aspect-ratio: 1.5;
+        /* Proporción de aspecto de las imágenes */
+    }
+}
+
+
+.carousel-inner {
+    background-color: aliceblue;
+}
+
+
+.carrusel-tamaño {
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    .carrusel-tamaño {
+        max-width: 100%;
+        /* Reducimos el ancho del carrusel al 100% del contenedor padre */
+        margin: 0;
+        aspect-ratio: 1.5;
+        /* Proporción de aspecto de las imágenes */
+    }
+}
+
+
+.card {
+    width: 100%;
+    /* Ancho de la tarjeta */
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.card-img-top {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+.contenedorBoton {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    ;
+}
+
+
+.contenedorCarrusel {
+    margin-left: 2.5%;
+
+
+
+
+
+
+}
+
+
+.card-body {
+    color: red;
+
+
+
+
+
+
+}
